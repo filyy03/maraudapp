@@ -61,7 +61,7 @@ while ($row = mysqli_fetch_assoc($result)) {
     <h1>Prochaines maraudes</h1>
     <p>
     Découvrez ci-dessous les prochaines maraudes prévues, avec leur date et leur lieu.
-    Cliquez sur « Je participe » pour vous engager activement à nos côtés, ou sur « Don » pour soutenir l’action par un don.
+    Cliquez sur « Je participe » pour vous engager activement à nos côtés, ou sur « Je fais un don » pour soutenir l’action par un don.
     Chaque petit geste compte !
     </p>
   </div>
