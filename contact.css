@@ -1,0 +1,166 @@
+/* =========================
+   RESET / TYPOGRAPHIE
+   ========================= */
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding-top: 100px; /* Pour la navbar fixe */
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+
+p {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+}
+
+/* =========================
+   INTRO SECTION
+   ========================= */
+
+.intro {
+    max-width: 900px;
+    margin: 0 auto 40px;
+    padding: 0 20px;
+    text-align: center;
+}
+
+.intro h1 {
+    font-family: 'Montserrat', sans-serif;
+    color: #1D4ED8;
+    font-weight: 700;
+    line-height: 1.2;
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 2.5rem;
+}
+
+.intro p {
+    font-size: 1.2rem;
+    color: #555;
+}
+
+/* =========================
+   MESSAGES SUCCESS / ERROR
+   ========================= */
+
+.message-container {
+    max-width: 900px;
+    margin: 0 auto 20px;
+    padding: 0 20px;
+}
+
+.message {
+    padding: 12px 20px;
+    border-radius: 6px;
+    font-weight: 500;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.message.success {
+    background-color: #d4edda;
+    color: #155724;
+    border: 1px solid #c3e6cb;
+}
+
+.message.error {
+    background-color: #f8d7da;
+    color: #721c24;
+    border: 1px solid #f5c6cb;
+}
+
+/* =========================
+   FORMULAIRE
+   ========================= */
+
+.required {
+    color: #e74c3c;
+}
+
+form {
+    max-width: 700px;
+    margin: 0 auto 60px;
+    padding: 30px;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.input-box {
+    margin-bottom: 20px;
+}
+
+.input-box label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.input-box input,
+.input-box textarea {
+    width: 100%;
+    padding: 12px 15px;
+    border: 2px solid #ddd;
+    border-radius: 6px;
+    font-size: 1rem;
+    font-family: inherit;
+    box-sizing: border-box;
+    transition: all 0.3s ease;
+}
+
+.input-box input:focus,
+.input-box textarea:focus {
+    outline: none;
+    border-color: #4CAF50;
+    box-shadow: 0 0 0 3px rgba(76, 175, 80, 0.1);
+}
+
+textarea {
+    min-height: 120px;
+    resize: vertical;
+}
+
+/* =========================
+   BOUTON
+   ========================= */
+
+.bouton {
+    display: inline-block;
+    width: 100%;
+    padding: 12px 0;
+    font-size: 1rem;
+    font-weight: 600;
+    border: none;
+    border-radius: 6px;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-align: center;
+}
+
+.bouton:hover {
+    background-color: #45a049;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+/* =========================
+   RESPONSIVE
+   ========================= */
+
+@media (max-width: 768px) {
+    form {
+        margin: 20px;
+        padding: 20px;
+    }
+
+    .intro {
+        padding: 0 15px;
+    }
+}

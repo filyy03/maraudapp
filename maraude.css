@@ -1,0 +1,90 @@
+/* =========================
+   CONTAINER MARAUDES
+   ========================= */
+
+.maraudes-container {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+/* Liste des maraudes */
+.maraudes-container ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+
+
+/* Chaque maraude en "carte" */
+.maraude-item {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+    transition: transform 0.2s, box-shadow 0.2s;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Effet hover */
+.maraude-item:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 18px rgba(0,0,0,0.1);
+}
+
+/* Titres dans les items */
+.maraude-item strong {
+    color: #1D4ED8;
+    font-weight: 600;
+}
+
+/* Commentaires */
+.maraude-item em {
+    display: block;
+    color: #555;
+    font-style: italic;
+    margin: 10px 0;
+}
+
+/* Bouton "Je participe" */
+.maraude-item .btn {
+    display: inline-block;
+    padding: 10px 18px;
+    margin-top: 10px;
+    background-color: #1D4ED8;
+    color: #fff;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: background-color 0.2s;
+}
+
+.maraude-item .btn:hover {
+    background-color: #0F3BB7;
+}
+
+/* Message "Aucune maraude" */
+.maraudes-container p {
+    font-style: italic;
+    color: #000000;
+    margin-top: 20px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .maraudes-container {
+        padding: 0 15px;
+    }
+    
+    .maraude-item {
+        padding: 15px;
+    }
+    
+    .maraude-item .btn {
+        width: 100%;
+        text-align: center;
+    }
+}

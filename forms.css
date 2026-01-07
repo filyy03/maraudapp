@@ -1,0 +1,176 @@
+/* =========================
+   FORMULAIRE DON
+   ========================= */
+
+/* Conteneur du formulaire */
+.form-container {
+    max-width: 700px;
+    margin: 40px auto;
+    padding: 30px;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+}
+
+/* Titre h2 */
+.form-container h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    color: #333;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+/* Paragraphes introductifs */
+.form-container p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #333;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+/* Groupes de champs */
+.form-group {
+    margin-bottom: 20px;
+}
+
+/* Labels en gras */
+.form-group label {
+    display: block;
+    font-weight: 600;
+    font-size: 0.95rem;
+    margin-bottom: 8px;
+    color: #333;
+}
+
+.required {
+    color: #e74c3c;
+}
+
+/* Champs de saisie et textarea */
+/* Champs de saisie et textarea */
+input[type="text"],
+input[type="tel"],
+input[type="email"],
+input[type="number"],
+input[type="password"],
+input[list],
+textarea,
+select {
+    display: block;          /* force tous à prendre toute la largeur */
+    width: 100%;
+    padding: 12px 15px;
+    font-size: 1rem;
+    font-family: inherit;
+    border: 2px solid #ddd;
+    border-radius: 6px;
+    box-sizing: border-box;
+    transition: all 0.3s ease;
+}
+
+input[type="date"]{
+    display: block;          /* force tous à prendre toute la largeur */
+    width: 100%;
+    padding: 12px 15px;
+    font-size: 1rem;
+    font-family: inherit;
+    border: 2px solid #ddd;
+    border-radius: 6px;
+    box-sizing: border-box;
+    transition: all 0.3s ease;
+}
+
+/* Fix navigateur pour input date (Chrome, Safari, Firefox) */
+input[type="date"]::-webkit-inner-spin-button,
+input[type="date"]::-webkit-calendar-picker-indicator {
+    margin: 0;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+    outline: none;
+    border-color: #4CAF50;
+    box-shadow: 0 0 0 3px rgba(76, 175, 80, 0.1);
+}
+
+textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+
+
+/* Boutons */
+.form-actions {
+    margin-top: 25px;
+    text-align: center;
+}
+
+.btn {
+    display: inline-block;
+    width: 100%;
+    padding: 12px 0;
+    font-size: 1rem;
+    font-weight: 600;
+    border: none;
+    border-radius: 6px;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-align: center;
+}
+
+.btn:hover {
+    background-color: #45a049;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+.btn-primary {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.btn-primary:hover {
+    background-color: #45a049;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+/* Champs invalides / validés */
+input:invalid:not(:placeholder-shown),
+textarea:invalid:not(:placeholder-shown) {
+    border-color: #e74c3c;
+}
+
+input:valid:not(:placeholder-shown),
+textarea:valid:not(:placeholder-shown) {
+    border-color: #2ecc71;
+}
+
+/* Désactivation (au besoin) */
+input:disabled,
+textarea:disabled {
+    background-color: #f5f5f5;
+    cursor: not-allowed;
+    opacity: 0.6;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .form-container {
+        margin: 20px;
+        padding: 20px;
+    }
+
+    .form-container h2 {
+        font-size: 1.5rem;
+    }
+
+    .btn {
+        width: 100%;
+    }
+}
