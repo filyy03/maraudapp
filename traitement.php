@@ -54,7 +54,7 @@ if (!$prenom || !$nom || !$email || !$message) {
 // ========================================
 
 // Destinataire
-$to = "tfily954@icloud.com";
+$to = "fily.toure05@gmail.com";
 
 // Sujet de l'email
 $subject = "Nouveau message depuis Maraud'App";
