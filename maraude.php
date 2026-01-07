@@ -60,7 +60,9 @@ while ($row = mysqli_fetch_assoc($result)) {
   <div class="intro">
     <h1>Prochaines maraudes</h1>
     <p>
-    Découvrez ci-dessous les prochaines maraudes prévues, avec leur date et leur lieu. Cliquez sur « Je participe » pour vous inscrire et contribuer à nos actions solidaires. Chaque petit geste compte !
+    Découvrez ci-dessous les prochaines maraudes prévues, avec leur date et leur lieu.
+    Cliquez sur « Je participe » pour vous engager activement à nos côtés, ou sur « Don » pour soutenir l’action par un don.
+    Chaque petit geste compte !
     </p>
   </div>
         
@@ -91,6 +93,7 @@ while ($row = mysqli_fetch_assoc($result)) {
                         <?php endif; ?>
 
                         <a href="benevole.php" class="btn btn-primary">Je participe</a>
+                        <a href="don.php" class="btn btn-primary">Je fais un don</a>
                     </li>
                     <?php endforeach; ?>
                 </ul>
