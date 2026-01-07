@@ -27,6 +27,7 @@ Créer un outil simple et efficace pour :
 
 --> Fonctionnalités
 	•	Inscription et gestion des bénévoles
+	•	Formulaire proposition de dons
 	•	Système de rôles (distribution, logistique, coordination, etc.)
 	•	Calendrier des maraudes
 	Gestion des dons avec tri :
