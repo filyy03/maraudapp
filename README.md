@@ -35,41 +35,7 @@ Créer un outil simple et efficace pour :
 	•	Refusé (selon les besoins)
 	•	Tableau de bord administrateur
 
-
-
---> Structure du projet
-
-Maraudapp
-   ├── admindashboard.php
-   ├── ajoutstock.php
-   ├── benevole.php
-   ├── contact.php
-   ├── maraude.php
-   ├── don.php
-   ├── index.php
-   ├── login.php
-   ├── logout.php
-   └── traitement.php
-
-/includes
-   ├── config.php
-   ├── footer.php
-   ├── footeradmin.php
-   ├── header.php
-   ├── headeradmin.php
-   ├── /images
-   └── /css
-        ├── accueil.css
-        ├── ajoutstock.css
-		├── maraude.css
-        ├── contact.css
-        ├── dashboard.css
-        ├── footer.css
-        ├── forms.css
-        ├── pages-principales.css
-        └── header.css
-
-
+	
 
 --> Accès démo
 
